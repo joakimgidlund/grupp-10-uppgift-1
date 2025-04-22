@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/logo.svg">
+    <title>LumaLab</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="function-menu">
+            <div class="menu-row">
+                <div class="dropdown">
+                    <button class="file-button">File</button>
+                    <div class="dropdown-content">
+                        <a href="#">New</a>
+                        <a href="#">Save</a>
+                        <a href="#">Save As...</a>
+                        <a href="#">Print</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="file-button">Edit</button>
+                    <div class="dropdown-content">
+                        <a href="#">Undo</a>
+                        <a href="#">Redo</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="file-button">View</button>
+                    <div class="dropdown-content">
+                        <a href="#">Fullscreen</a>
+                    </div>
+                </div>
+            </div>
+            <div class="tools">
+                <button class="menu-button" data-title="Saturation">
+                    <img src="assets/contrast.svg" alt="saturation">
+                </button>
+
+                <label class="menu-button color-picker" data-title="Tint">
+                    <img src="assets/tint.svg" alt="tint">
+                    <input type="color" class="tint-picker">
+                </label>
+
+                <div class="dropdown">
+                    <button class="menu-button" data-title="Compress">
+                        <img class="compress-icon" src="assets/compress.svg" alt="compress icon">
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Lossless</a>
+                        <a href="#">Lossy</a>
+                    </div>
+                </div>
+
+                <div class="resize-buttons">
+                    <img class="resize-icon" src="assets/resize.svg" alt="resize icon">
+                    <div class="height-resize">
+                        <button class="menu-button" data-title="Resize">70 px</button>
+                        <img class="height-arrows" src="assets/arrows_height.svg" alt="arrows for resizing height">
+                    </div>
+                    <div class="width-resize">
+                        <button class="menu-button" data-title="Resize">70 px</button>
+                        <br>
+                        <img class="width-arrows" src="assets/arrows_width.svg" alt="arrows for resizing width">
+                    </div>
+                </div>
+            </div>
+            <div class="frame-crop">
+                <button class="menu-button" data-title="Frame">
+                    <img src="assets/frame.svg" alt="frame">
+                </button>
+                <button class="menu-button" data-title="Crop">
+                    <img src="assets/crop.svg" alt="crop">
+                </button>
+            </div>
+            <div class="mirror">
+                <button class="menu-button" data-title="Flip vertically">
+                    <img src="assets/mirror_vert.svg" alt="mirror vertically">
+                </button>
+                <button class="menu-button" data-title="Flip horizontally">
+                    <img src="assets/mirror_hori.svg" alt="mirror horizontally">
+                </button>
+            </div>
+            <div class="rotate">
+                <img src="assets/flip.svg" alt="rotate">
+                <button class="menu-button" data-title="Rotate to 0°">0°</button>
+                <button class="menu-button" data-title="Rotate to 90°">90°</button>
+                <button class="menu-button" data-title="Rotate to 180°">180°</button>
+                <button class="menu-button" data-title="Rotate to 270°">270°</button>
+            </div>
+        </div>
+        <div class="upload-menu">
+            <button class="upload-button">
+                <img src="assets/i_cloud.svg" alt="cloud storage">
+            </button>
+            <button class="upload-button">
+                <img src="assets/google_drive.svg" alt="google drive">
+            </button>
+            <button class="upload-button">
+                <img src="assets/local_save.svg" alt="save locally">
+            </button>
+        </div>
+        <div class="file-select">
+            <img src="assets/1.jfif" alt="test">
+            <img src="assets/2.jfif" alt="test">
+            <img src="assets/3.jfif" alt="test">
+            <img src="assets/4.jfif" alt="test">
+            <img src="assets/5.jfif" alt="test">
+            <img src="assets/6.jfif" alt="test">
+            <img src="assets/7.jfif" alt="test">
+            <img src="assets/8.jfif" alt="test">
+            <img src="assets/9.jfif" alt="test">
+            <img src="assets/10.jfif" alt="test">
+            <img src="assets/11.jfif" alt="test">
+            <img src="assets/12.jfif" alt="test">
+            <img src="assets/13.jfif" alt="test">
+            <img src="assets/14.jfif" alt="test">
+            <img src="assets/15.jfif" alt="test">
+        </div>
+        <div class="image-gallery">
+            <div class="big-preview">
+                <img src="assets/greenhouse.jfif" alt="large">
+            </div>
+            <nav>
+                <ul class="nav-images">
+                    <li><img class="arrows" src="assets/arrow_left.svg" alt="greenhouse garden"></li>
+                    <li><img class="carousel-image" src="assets/carousel_1.jfif" alt="garden flowers"></li>
+                    <li><img class="carousel-image" src="assets/carousel_2.jfif" alt="colorful flowers"></li>
+                    <li><img class="carousel-image" src="assets/carousel_3.jfif" alt="flowers"></li>
+                    <li><img class="carousel-image" src="assets/carousel_4.jfif" alt="colorful flowers"></li>
+                    <li><img class="carousel-image" src="assets/carousel_5.jfif" alt="flower garden"></li>
+                    <li><img class="arrows" src="assets/arrow_right.svg" alt="large test"></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+
+</html>
